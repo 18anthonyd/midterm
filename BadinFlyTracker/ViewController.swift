@@ -13,7 +13,30 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet weak var FlyTable: UITableView!
     @IBAction func AddButton(_ sender: Any) {
         performSegue(withIdentifier: "AddSegue", sender: "🤑")
+        print("Add Button Pressed")
     }
+    // method
+    class Fly {
+        var location=" "
+        var name = " "
+    }
+      @IBAction func SubmitButton( sender: Any) {
+        performSegue(withIdentifier: "SubmitSegue", sender: "👻")
+        print("Submit Button Pressed")
+        //conditional
+        if fly.count<10 {
+            fly.append("Fly \(Int(fly.count)+1)")}
+        else {
+            fly.append("Fly \(Int(fly.count)+2)")
+        }
+    }
+    @IBOutlet weak var FlyCount: UILabel!
+
+    @IBAction func GoneButton(_ sender: Any) {
+        print("Mark as gone pressed")
+        performSegue(withIdentifier:"GoneSegue", sender: "🌝")
+    }
+   //array
      var fly = ["Fly 1- Room 114", "Fly 2- Room 107", "Fly 3- Room 107", "Fly 4- Room 107", "Fly 5- Room 105", "Fly 6- Room 005", "Fly 7- Room 105", "Fly 8- Room 114"]
     
     override func viewDidLoad() {
