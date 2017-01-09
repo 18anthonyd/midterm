@@ -18,13 +18,21 @@ class ViewControllerSubmit: UIViewController {
             fly.append("Fly \(Int(fly.count)+2)")
     }
 
+<<<<<<< HEAD
     func viewDidLoad() {
+=======
+    override func viewDidLoad() {
+>>>>>>> ee48edf581f072970ee2e3a2e3e980f26b42bd68
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
+<<<<<<< HEAD
      func didReceiveMemoryWarning() {
+=======
+    override func didReceiveMemoryWarning() {
+>>>>>>> ee48edf581f072970ee2e3a2e3e980f26b42bd68
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
