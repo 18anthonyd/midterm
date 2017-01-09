@@ -2,9 +2,9 @@
 //  ViewControllerGone.swift
 //  BadinFlyTracker
 //
-//  Created by BHSRam6 on 1/9/17.
-//  Copyright © 2017 BHSRam6. All rights reserved.
-//
+//  Created by Dominic A on 1/9/17.
+//  Copyright © 2017 Dominic A. All rights reserved.
+//http://stackoverflow.com/questions/28587577/how-do-i-create-a-view-controller-file-after-creating-a-new-view-controller
 
 import UIKit
 
